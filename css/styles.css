@@ -443,3 +443,22 @@ body {
   margin-right: 5px;
   fill: currentColor;
 }
+.fetures-img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 26px;
+  align-items: center;
+  align-content: center;
+}
+.fetures__unit__list__info__item__photo{
+  align-items: end;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  background: #F5F4FA;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
