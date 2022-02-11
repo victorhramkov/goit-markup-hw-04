@@ -53,6 +53,7 @@ body {
 .header__contacts__list:focus {
   color: var(--button-and-logo-color);
   cursor: pointer;
+  fill: var(--button-and-logo-color);
 }
 .nav-button:hover,
 .nav-button:focus {
@@ -106,14 +107,14 @@ body {
   color: inherit;
 }
 .header__top__menu__pages:not(:last-child) {
-  margin-right: 93px;
+  margin-right: 50px;
 }
 .header__contacts {
   display: flex;
   justify-content: space-between;
   text-decoration: none;
   list-style: none;
-  margin: 0 auto;
+  margin-left: auto;
 }
 .header__contacts__list {
   color: var(--subtext-color);
@@ -123,6 +124,7 @@ body {
   line-height: 0.875;
   letter-spacing: 0.02em;
 }
+
 .header__contacts__list:not(:last-child) {
   margin-right: 50px;
 }
@@ -142,14 +144,13 @@ body {
   font-weight: 700;
   letter-spacing: 0.03em;
   margin-bottom: 20px;
+  display: block;
 }
 .footer__logo__web {
   color: var(--button-and-logo-color);
 }
 .footer__adress {
-  display: flex;
-  justify-content: flex-start;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 .footer__adress__unit {
 }
@@ -236,7 +237,7 @@ body {
   margin-right: 30px;
 }
 .fetures__unit__list__item__headline {
-  padding-bottom: 5px;
+  margin-bottom: 5px;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -255,7 +256,6 @@ body {
 }
 .what-we-do__text {
   text-align: center;
-  padding-bottom: 30px;
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -278,7 +278,6 @@ body {
 }
 .our-team__text {
   text-align: center;
-  padding-bottom: 30px;
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -330,8 +329,8 @@ body {
 }
 
 /* кнопки портфоліо */
-.portfolio-nav__unit-list__list-item {
-  padding-left: 10px;
+.portfolio-nav__unit-list__list-item:not(:last-child) {
+  margin-right: 10px;
 }
 .nav-button {
   background-color: var(--background-color-second);
@@ -366,6 +365,10 @@ body {
 .our-projects__unit-list__list-item:nth-child(3n + 3) {
   margin-right: 0;
 }
+.our-projects__unit-list__list-item:nth-child(n + 7) {
+  margin-bottom: 0;
+}
+
 .item-project {
   display: block;
   text-decoration: none;
@@ -423,4 +426,14 @@ body {
   line-height: 30px;
   letter-spacing: 0.03em;
   color: var(--subtext-color);
+}
+.letter-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 5px;
+  fill: currentColor;
+}
+.contact-icon {
+  text-decoration: none;
+  color: inherit;
 }
