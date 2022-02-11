@@ -437,3 +437,9 @@ body {
   text-decoration: none;
   color: inherit;
 }
+.tel-icon{
+  width: 16px;
+  height: 12px;
+  margin-right: 5px;
+  fill: currentColor;
+}
