@@ -464,25 +464,44 @@ body {
 .our-clients {
 }
 .our-clients__headline {
-  margin-bottom: 50px;
+  text-align: center;
+  color: var(--text-color);
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
-  text-align: center;
+  line-height: 1.16;
+  margin: 0 0 50px 0;
   letter-spacing: 0.03em;
 }
 .our-clients__unit-list {
+  list-style: none;
   display: flex;
-  justify-content: space-between;
+  margin-bottom: 94px;
 }
 .our-clients__unit-list__list-iten {
-  list-style: none;
-  margin-bottom: 94px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-}
-.our-clients__foto {
   width: 170px;
   height: 92px;
+  box-sizing: border-box;
+  margin-right: 30px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.our-clients__links:hover,
+.our-clients__links:focus {
+  color: var(--button-and-logo-color);
+}
+.our-clients__foto {
+  width: 106px;
+  height: 60px;
+}
+.our-clients__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
