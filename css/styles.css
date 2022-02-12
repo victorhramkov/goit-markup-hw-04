@@ -475,7 +475,6 @@ body {
 .our-clients__unit-list {
   list-style: none;
   display: flex;
-  margin-bottom: 94px;
 }
 .our-clients__unit-list__list-iten {
   width: 170px;
