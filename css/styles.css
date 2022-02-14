@@ -301,6 +301,33 @@ body {
   letter-spacing: 0.03em;
   color: var(--subtext-color);
 }
+.our-team__social {
+  width: 206px;
+  height: 44px;
+}
+.our-team__social__unit-list {
+  display: flex;
+}
+.our-team__social__unit-list__list-item {
+  width: 44px;
+  height: 44px;
+  list-style: none;
+}
+.our-team__social__unit-list__list-item__link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-foto {
+  width: 20px;
+  height: 20px;
+  fill:#ffffff;
+}
 /* Начало стилей портфолио */
 .portfolio-nav__unit-list {
   display: flex;
@@ -524,8 +551,8 @@ body {
   background: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-foto {
+.our-team__social-foto {
   width: 20px;
   height: 20px;
-  fill: #fff;
+  fill: #AFB1B8;
 }
