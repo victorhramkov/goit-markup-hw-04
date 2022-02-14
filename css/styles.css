@@ -512,14 +512,20 @@ body {
   list-style: none;
   width: 44px;
   height: 44px;
+  margin-left: 10px;
 }
 .social-links {
   width: 44px;
   height: 44px;
-  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-foto {
   width: 20px;
   height: 20px;
-  fill: var(--button-and-logo-color);
+  fill: #fff;
 }
