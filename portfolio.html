@@ -23,7 +23,7 @@
         >
         <nav class="head-block">
           <ul class="header__top__menu">
-            <li class="header__top__menu__pages">
+            <li class="header__top__menu__pages ">
               <a class="header__top__menu__pages__active" href="index.html">Студия</a>
             </li>
             <li class="header__top__menu__pages active">
@@ -35,8 +35,22 @@
           </ul>
         </nav>
         <ul class="header__contacts">
-          <li class="header__contacts__list">info@devstudio.com</li>
-          <li class="header__contacts__list">+38 096 111 11 11</li>
+          <li class="header__contacts__list">
+            <a class="contact-icon" href="mailto:info@devstudio.com">
+              <svg class="letter-icon">
+                <use href="./images/symbol-defs.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="header__contacts__list">
+            <a class="contact-icon" href="tel:+38 096 111 11 11">
+              <svg class="tel-icon">
+                <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </div>
     </header>
@@ -257,39 +271,69 @@
     <!-- подвал сайта -->
     <footer class="footer">
       <div class="container">
-        <div>
-          <a href="#" class="footer__logo"><span class="footer__logo__web">Web</span>Studio </a>
-          <adress class="footer__adress">
-            <ul class="footer__adress__unit">
-              <li class="footer__adress__unit__list">
-                <p class="footer__adress__unit__list__street">
-                  <a
-                    href="https://goo.gl/maps/rMcHHb8cHS6tsSC66"
-                    class="footer__adress__unit__list__street__building"
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
-                    >г. Киев, пр-т Леси Украинки, 26</a
-                  >
-                </p>
-              </li>
-              <li class="footer__adress__unit__list">
-                <a href="mailto:info@devstudio.com" class="footer-item">info@devstudio.com</a>
-              </li>
-              <li class="footer__adress__unit__list">
-                <a href="tel:+380961111111" class="footer-item">+38 096 111 11 11</a>
-              </li>
-            </ul>
-          </adress>
-        </div>
-        <!-- <div class="social">
-          <p class="social__add__on">присоединяйтесь</p>
-          <ul class="subscribe__social">
-            <li class="subscribe__social__buttons"><a href="">instagram</a></li>
-            <li class="subscribe__social__buttons"><a href="">facebook</a></li>
-            <li class="subscribe__social__buttons"><a href="">twiter</a></li>
-            <li class="subscribe__social__buttons"><a href="">linkedIn</a></li>
+        <div class="footer-block1">
+        <a href="#" class="footer__logo"><span class="footer__logo__web">Web</span>Studio </a>
+        <adress class="footer__adress">
+          <ul class="footer__adress__unit">
+            <li class="footer__adress__unit__list">
+              <p class="footer__adress__unit__list__street">
+                <a
+                  href="https://goo.gl/maps/rMcHHb8cHS6tsSC66"
+                  class="footer__adress__unit__list__street__building"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </p>
+            </li>
+            <li class="footer__adress__unit__list">
+              <a href="mailto:info@devstudio.com" class="footer-item">info@devstudio.com</a>
+            </li>
+            <li class="footer__adress__unit__list">
+              <a href="tel:+380961111111" class="footer-item">+38 096 111 11 11</a>
+            </li>
           </ul>
-        </div> -->
+        </adress>
+      </div>
+             <div class="footer-block2">
+          <p class="social__text">присоединяйтесь</p>
+          <ul class="social__unit-list">
+            <li class="subscribe__social__buttons">
+              <a class="social-links" href="#">
+                <svg class="social-foto">
+                  <use href="./images/symbol-defs.svg#icon-instagram_footer">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li class="subscribe__social__buttons">
+              <a class="social-links" href="#">
+                <svg class="social-foto">
+                  <use href="./images/symbol-defs.svg#icon-twitter_footer">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li class="subscribe__social__buttons">
+              <a class="social-links" href="#">
+                <svg class="social-foto">
+                  <use href="./images/symbol-defs.svg#icon-facebook_footer">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li class="subscribe__social__buttons">
+              <a class="social-links" href="#">
+                <svg class="social-foto">
+                  <use href="./images/symbol-defs.svg#icon-linkedin_footer">
+                  </use>
+                </svg>
+              </a>
+            </li>
+           </ul>
+        </div>
+      </div>
+    </footer>
       </div>
     </footer>
   </body>

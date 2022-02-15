@@ -180,6 +180,9 @@ body {
   padding-bottom: 200px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/baner-img.png);
+    max-width: 1600px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
 }
 .slider__sentences {
   color: var(--white-text-color);
