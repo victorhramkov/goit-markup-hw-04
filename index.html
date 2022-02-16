@@ -59,7 +59,7 @@
     <!-- секция с банером -->
     <section class="baner">
       <h1 class="slider__sentences">Эффективные решения<br />для вашего бизнеса</h1>
-      <button type="button" class="button__style">Заказать услугу</button>
+      <button type="button" class="button__style" data-modal-open> Заказать услугу</button>
     </section>
     <!-- секция наши приемущевства -->
     <section class="section">
@@ -125,6 +125,7 @@
               height="294"
               class="img-style"
             />
+            <p class="text-over-image">Десктопные приложения</p>
           </li>
           <li class="what-we-do_unit-list-item">
             <img
@@ -134,6 +135,7 @@
               height="294"
               class="img-style"
             />
+            <p class="text-over-image">Десктопные приложения</p>
           </li>
           <li class="what-we-do_unit-list-item">
             <img
@@ -143,6 +145,7 @@
               height="294"
               class="img-style"
             />
+            <p class="text-over-image">Десктопные приложения</p>
           </li>
         </ul>
       </div>
@@ -433,5 +436,11 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden">
+      <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close></button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
