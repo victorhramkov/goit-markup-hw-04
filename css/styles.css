@@ -180,9 +180,9 @@ body {
   padding-bottom: 200px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/baner-img.png);
-    max-width: 1600px;
-    margin: 0 auto;
-    background-repeat: no-repeat;
+  max-width: 1600px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
 }
 .slider__sentences {
   color: var(--white-text-color);
@@ -284,11 +284,9 @@ body {
   /* height: 370px; */
 }
 .team-mate-profile {
-  /* display: flex;
-  flex-direction: column; */
   align-items: center;
   padding-top: 30px;
-  padding-bottom: 16px;
+  padding-bottom: 30px;
 }
 .name-surname {
   font-weight: 500;
@@ -314,11 +312,15 @@ body {
 }
 .our-team__social__unit-list {
   display: flex;
+  margin-bottom: 30px;
+  padding-left: 30px;
 }
 .our-team__social__unit-list__list-item {
   width: 44px;
   height: 44px;
   list-style: none;
+}
+.our-team__social__unit-list__list-item:not(:last-child) {
   margin-right: 10px;
 }
 .our-team__social__unit-list__list-item__link {
@@ -459,6 +461,8 @@ body {
 .contact-icon {
   text-decoration: none;
   color: inherit;
+  display: block;
+  align-items: center;
 }
 .tel-icon {
   width: 10px;
@@ -469,15 +473,14 @@ body {
 .fetures-img {
   width: 70px;
   height: 70px;
-  margin-bottom: 26px;
   align-items: center;
   align-content: center;
 }
 .fetures__unit__list__info__item__photo {
-  align-items: end;
+  align-items: center;
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  height: 120px;
   background: #f5f4fa;
   box-sizing: border-box;
   border-radius: 4px;
@@ -511,8 +514,9 @@ body {
 .our-clients__links {
   display: flex;
   justify-content: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  width: 100%;
+  height: 100%;
+  align-items: center;
   box-sizing: border-box;
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -528,6 +532,7 @@ body {
 /* блок с соц сетями в подвале */
 .footer > .container {
   display: flex;
+  align-items: baseline;
 }
 .footer-block2 {
   width: 206px;
@@ -543,7 +548,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-text-color);
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .social__unit-list {
   display: flex;
@@ -552,7 +557,9 @@ body {
   list-style: none;
   width: 44px;
   height: 44px;
-  margin-left: 10px;
+}
+.subscribe__social__buttons:not(:last-child) {
+  margin-right: 10px;
 }
 .social-links {
   width: 44px;
